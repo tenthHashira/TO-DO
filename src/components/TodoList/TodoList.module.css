@@ -1,0 +1,23 @@
+.list {
+  margin-top: 20px;
+}
+
+.list_items {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list_blank {
+  text-align: center;
+  padding: 40px 20px;
+  color: #888;
+  background: #f9f9f9;
+  border-radius: 10px;
+  border: 2px dashed #ddd;
+}
+
+.list_blank p {
+  margin: 0;
+  font-size: 1.1rem;
+}

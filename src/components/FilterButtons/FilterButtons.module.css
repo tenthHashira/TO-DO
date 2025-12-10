@@ -1,0 +1,31 @@
+.filters {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.filters__button {
+  padding: 10px 20px;
+  background: #f8f9fa;
+  border: 2px solid #eaeaea;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: #666;
+}
+
+.filters__button:hover {
+  background: #e9ecef;
+  border-color: #667eea;
+  color: #667eea;
+  transform: translateY(-1px);
+}
+
+.filters__button_active {
+  background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+}
